@@ -47,14 +47,14 @@ select {
 
 /* Desktops */
 @media (min-width: 768px) {
-  body {
+  main {
     padding: 4% 20%;
   }
 }
 
 /* Mobiles */
 @media (max-width: 767px) {
-  body {
+  main {
     padding: 12% 8%;
   }
 }
@@ -106,7 +106,7 @@ p {
 img {
   margin-bottom: 42px;
   /* Drop shadow effect at right and bottom of image */
-  box-shadow: 8px 10px 8px #888;
+  box-shadow: 1.5px 1.5px 15px rgba(219, 219, 219, 0.596);
 }
 
 .video-container {
